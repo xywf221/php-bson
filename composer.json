@@ -1,0 +1,15 @@
+{
+  "autoload": {
+    "psr-4": {
+      "xywf221\\BSON\\": "src"
+    },
+    "files": [
+      "src/function.php",
+      "src/Internal/serializer.php",
+      "src/Internal/polyfill.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}
